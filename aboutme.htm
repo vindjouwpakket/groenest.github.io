@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>IIS Windows</title>
+<link rel="stylesheet" href="stylesaboutme.css">
+</head>
+<body>
+
+<hr/>
+Hey Luc6 here <br />
+
+<nav>
+<ul> 
+<li> <a href="C:\\inetpub\wwwebsite\index.htm"> Home </li>
+<li> <a href="G:\Homework\services.htm"> Services </li>
+<li> <a href="G:\Homework\aboutme.htm"> About me </li>
+<li> <a href="G:\Homework\contact.htm"> Contact </li>
+</ul>
+</nav>
+
+<!-- Circle animation -->
+<svg width="200" height="200">
+   <circle cx="120" cy="120" r="50" fill="orange" />
+</svg>
+
+<!-- Rectangle animation -->
+<svg width="200" height="200" align="right">
+<rect width="150" height="150" fill="orange">
+  <animate attributeName="x" from="0" to="300"
+    dur="6s" fill="remove" repeatCount="2"/> 
+</rect>
+</svg>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+        </canvas>
+        <script>
+            var canvas=document.getElementById("myCanvas");
+            var ctx=canvas.getContext("2d");
+            ctx.moveTo(200, 0);
+            ctx.lineTo(0, 100);
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+            ctx.stroke();
+            
+        </script>
+
+
+<h5> <span> My Skills </span></h5>
+<ul>
+<il><a href="">Item 1</a></il>
+<il> Item2</li>
+</ul>
+
+<table align="center">
+<tr>
+<td><a href="http://www.sololearn.com" target="_blank"> Learn Playing </a></td>
+<td> klik hier <p class="red-text"> voor meer foto's </p>
+</tr>
+
+
+<img class= "bigger-image" src="Relatie_document_1002864_2976776020161012.jpg" height="754px" width="488px" alt="" align="right"/>
+<img src="_DSC6913 (3).JPG" height="285px" width="429px" alt="" align="right"/>
+<img class= "smaller-image" src="20190801_152043.jpg" height="413px" width="310px" alt="" align="center"/>
+<img class= "smaller-image" src="20200206_105204.jpg" height="413px" width="310px" alt="" align="center"/>
+
+
+<script type="text/javascript">
+var a = 10
+a == 10
+document.write(a)
+</script>
+</body>
+</html>

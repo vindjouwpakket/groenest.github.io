@@ -1,0 +1,22 @@
+<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+  <style>
+  	h2 {
+      	color:blue;
+   	}
+
+	.red-text {
+	color: red;
+	}
+	
+	p {
+	fontsize: 16px;
+	}
+	p {
+   	 font-family: Karla, sans-serif;
+ 	 }
+	.yellow-box {
+    	background-color: yellow;
+   	 padding: 10px;
+	margin-right: 1150px;  	
+	}
+    </style>

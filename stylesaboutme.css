@@ -1,0 +1,16 @@
+<style>
+
+	.smaller-image {
+	width: 100px ;
+	}
+	.bigger-image {
+	width:500px ;
+	}
+	.red-text {
+	color: red;
+	}
+
+Body{
+	background-color: rgb(50, 101, 134)
+}
+</style>
