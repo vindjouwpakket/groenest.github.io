@@ -9,8 +9,14 @@
 	.red-text {
 	color: red;
 	}
+	.blue-text {
+		color: blue;
+	}
+	.green-text {
+		color: green;
+	}
 
 Body{
-	background-color: rgb(50, 101, 134)
+	background-color: rgba(50, 104, 114, 0.801)
 }
 </style>
