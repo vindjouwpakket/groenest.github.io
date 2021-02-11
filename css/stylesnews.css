@@ -1,17 +1,18 @@
 <style>
 
-ul {
-  list-style-type: circle; 
+ ul { 
+  list-style-type: none; 
   margin: 0; 
   padding: 0; 
   width: 20px; 
   background-color: #f1f1f1; 
+  display:list-item;
 }
 
-li a {
-  display: block;
-  width: 60px;
-}
+
+.post_content ul > li: before { display:none }
+
+
 
 .injected-text {
   margin-bottom: -25px;
@@ -28,7 +29,7 @@ li a {
 .green1-box {
   background-color: rgb(140,240,25);
   padding: 10px;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 100px;
   margin-right: 0px;
   margin-left: 150px;
@@ -38,6 +39,10 @@ li a {
   background-color: rgb(113,193,21);
   color: #fff;
   padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 0px;
+  margin-left: 150px;
 }
 
 .green3-box {

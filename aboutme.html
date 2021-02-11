@@ -4,27 +4,65 @@
 
 <title>IIS Windows</title>
 <link rel="stylesheet" href="/css/stylesaboutme.css">
+<style>
+
+  ul.normal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+
+  li.bordernav{
+    border-bottom: 1px solid #555;
+  }
+  li a {
+    display: block;
+    width: 60px;
+    color: #000;
+    padding: 16px 16px;
+    text-decoration: none;
+    text-align: center;
+   }
+   
+  div.margin {
+    margin-left: 150px;
+  }
+  img {
+    margin-left: 150px
+   }
+</style>
 </head>
 <body>
 
-<hr/>
-Hey Luc6 here <br />
 
 <nav>
-<ul> 
-<li> <a href="\index.html"> Home </li>
-<li> <a href="\services.html"> Services </li>
-<li> <a href="\aboutme.html"> About me </li>
-<li> <a href="\contact.html"> Contact </li>
-<li> <a href="\news.html"> News </li>
+  <ul class="normal"> 
+  <li class="bordernav"><a href="\index.html"> Home </a></li>
+  <li class="bordernav"><a href="\services.html"> Services </a></li>
+  <li class="bordernav"><a href="\aboutme.html"> About me </a></li>
+  <li class="bordernav"><a href="\contact.html"> Contact </a></li>
+  <li class="bordernav"><a href="\news.html"> News </a></li>
 </ul>
 </nav>
 
+<hr/ width= 150px>
+<div class="margin">
+  Hey Luc6 here <br/>
+</div>
+
+<div class="margin">
 <!-- Circle animation -->
 <svg width="200" height="200">
    <circle cx="120" cy="120" r="50" fill="orange" />
 </svg>
-
+</div>
+<div class="margin">
 <!-- Rectangle animation -->
 <svg width="200" height="200" align="right">
 <rect width="150" height="150" fill="orange">
@@ -32,7 +70,9 @@ Hey Luc6 here <br />
     dur="6s" fill="remove" repeatCount="2"/> 
 </rect>
 </svg>
+</div>
 
+<div class="margin">
 <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
   </canvas>
     <script>
@@ -46,7 +86,8 @@ Hey Luc6 here <br />
       ctx.stroke();
             
     </script>
-
+</div>
+<div class="margin">
 <h5> <span> My Skills </span></h5>
 <ul>
 <il><a href="">Item 1</a></il>
@@ -58,18 +99,18 @@ Hey Luc6 here <br />
 <td><a href="http://www.sololearn.com" target="_blank"> Learn Playing </a></td>
 <td> klik hier <p class="red-text"> voor meer foto's </p>
 </tr>
-
+</div>
 
 <img class= "bigger-image" src="Relatie_document_1002864_2976776020161012.jpg" height="754px" width="488px" alt="" align="right"/>
-<img src="_DSC6913 (3).JPG" height="285px" width="429px" alt="" align="right"/>
+<img class= ""             src="_DSC6913 (3).JPG" height="285px" width="429px" alt="" align="right"/>
 <img class= "smaller-image" src="20190801_152043.jpg" height="413px" width="310px" alt="" align="center"/>
 <img class= "smaller-image" src="20200206_105204.jpg" height="413px" width="310px" alt="" align="center"/>
 
 
 <script type="text/javascript">
-var a = 10
-a == 10
-document.write(a)
+  var a = 10
+  a == 10
+document.write(x)
 </script>
 </body>
 </html>
