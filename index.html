@@ -63,6 +63,52 @@
 alert('this is an alert box');
 </script>
 
+<!-- script from freecodecamp/github, change background color-->
+<label for="theme">Select theme: </label>
+<select id="theme">
+  <option value="white">White</option>
+  <option value="black">Black</option>
+  <option value="purple">Purple</option>
+  <option value="yellow">Yellow</option>
+  <option value="psych">Psychedelic</option>
+</select>
+
+<script>
+  const select = document.querySelector('select');
+  const html = document.querySelector('html');
+
+  select.onchange = function() {
+    const choice = select.value;
+
+    switch(choice) {
+      case 'black':
+        update('black','white');
+        break;
+      case 'white':
+        update('white','black');
+        break;
+      case 'purple':
+        update('purple','white');
+        break;
+      case 'yellow':
+        update('yellow','darkgray');
+        break;
+      case 'psych':
+        update('lime','purple');
+        break;
+    }
+  }
+
+  function update(bgColor, textColor) {
+    html.style.backgroundColor = bgColor;
+    html.style.color = textColor;
+  }
+</script>
+<!--end of script changing the background color-->
+
+
+
+
 
 <p id="demo"></p>
 
@@ -93,6 +139,7 @@ document.getElementById("demo").innerHTML = "Hello world";
 
   alert("helloworldhelloworldhelloworldhelloworldhelloworld");
 
+  <!-- script from -->
   const myHeading = document.querySelector('h1');
   myHeading.textContent= 'Hello world!';
   
